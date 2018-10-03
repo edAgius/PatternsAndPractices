@@ -29,3 +29,19 @@ C:\Users\eagius\Documents\Visual Studio 2017\Projects\PatternsAndPractices\Patte
 C:\Users\eagius\Documents\Visual Studio 2017\Projects\PatternsAndPractices\PatternsAndPractices\obj\Debug\PatternsAndPractices.csprojResolveAssemblyReference.cache
 C:\Users\eagius\Documents\Visual Studio 2017\Projects\PatternsAndPractices\PatternsAndPractices\obj\Debug\PatternsAndPractices.exe
 C:\Users\eagius\Documents\Visual Studio 2017\Projects\PatternsAndPractices\PatternsAndPractices\obj\Debug\PatternsAndPractices.pdb
+C:\Users\eagius\Documents\GitHub\PatternsAndPractices\PatternsAndPractices\PatternsAndPractices\bin\Debug\PatternsAndPractices.exe.config
+C:\Users\eagius\Documents\GitHub\PatternsAndPractices\PatternsAndPractices\PatternsAndPractices\bin\Debug\PatternsAndPractices.exe
+C:\Users\eagius\Documents\GitHub\PatternsAndPractices\PatternsAndPractices\PatternsAndPractices\bin\Debug\PatternsAndPractices.pdb
+C:\Users\eagius\Documents\GitHub\PatternsAndPractices\PatternsAndPractices\PatternsAndPractices\bin\Debug\Castle.Core.dll
+C:\Users\eagius\Documents\GitHub\PatternsAndPractices\PatternsAndPractices\PatternsAndPractices\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\eagius\Documents\GitHub\PatternsAndPractices\PatternsAndPractices\PatternsAndPractices\bin\Debug\Moq.dll
+C:\Users\eagius\Documents\GitHub\PatternsAndPractices\PatternsAndPractices\PatternsAndPractices\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\eagius\Documents\GitHub\PatternsAndPractices\PatternsAndPractices\PatternsAndPractices\bin\Debug\System.ValueTuple.dll
+C:\Users\eagius\Documents\GitHub\PatternsAndPractices\PatternsAndPractices\PatternsAndPractices\bin\Debug\Castle.Core.xml
+C:\Users\eagius\Documents\GitHub\PatternsAndPractices\PatternsAndPractices\PatternsAndPractices\bin\Debug\Moq.pdb
+C:\Users\eagius\Documents\GitHub\PatternsAndPractices\PatternsAndPractices\PatternsAndPractices\bin\Debug\Moq.xml
+C:\Users\eagius\Documents\GitHub\PatternsAndPractices\PatternsAndPractices\PatternsAndPractices\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\eagius\Documents\GitHub\PatternsAndPractices\PatternsAndPractices\PatternsAndPractices\bin\Debug\System.ValueTuple.xml
+C:\Users\eagius\Documents\GitHub\PatternsAndPractices\PatternsAndPractices\PatternsAndPractices\obj\Debug\PatternsAndPractices.csprojResolveAssemblyReference.cache
+C:\Users\eagius\Documents\GitHub\PatternsAndPractices\PatternsAndPractices\PatternsAndPractices\obj\Debug\PatternsAndPractices.exe
+C:\Users\eagius\Documents\GitHub\PatternsAndPractices\PatternsAndPractices\PatternsAndPractices\obj\Debug\PatternsAndPractices.pdb

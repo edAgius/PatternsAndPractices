@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
@@ -61,6 +62,17 @@ namespace PatternsAndPractices
             //Repository pattern
             RepositoryService RepositoryService = new RepositoryService();
             Console.WriteLine("_________________________________");
+
+
+            Console.WriteLine("Tree Traversal");
+            //BinaryTree Traversal
+            BinaryTreeService BinaryTreeService = new BinaryTreeService();
+            Console.WriteLine("_________________________________");
+
+            Console.WriteLine("Number Swap");
+            //Number Swap
+            NumberSwapService NumberSwapService = new NumberSwapService();
+            Console.WriteLine("_________________________________");
             //read
 
 
@@ -69,4 +81,6 @@ namespace PatternsAndPractices
         }
     }
 }
+
+
 

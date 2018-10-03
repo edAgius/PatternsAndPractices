@@ -78,6 +78,8 @@
     <Compile Include="Adaptor\Program.AdaptorService.HRSystem.cs" />
     <Compile Include="Adaptor\Program.AdaptorService.ITarget.cs" />
     <Compile Include="Adaptor\Program.AdaptorService.ThirdPartyBillingSystem.cs" />
+    <Compile Include="BinaryTree\Program.BinaryTreeService.cs" />
+    <Compile Include="BinaryTree\Program.BinaryTreeService.Node.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="OCP\Program.OCPService.cs" />
     <Compile Include="OCP\Program.OCPService.Duck.cs" />
@@ -111,6 +113,7 @@
     <Compile Include="Decorator\Program.DecoratorService.cs" />
     <Compile Include="Decorator\Program.DecoratorService.Decorator.cs" />
     <Compile Include="Decorator\Program.DecoratorService.NameCardDecorator.cs" />
+    <Compile Include="NumberSwap\Program.NumberSwapService.cs" />
     <Compile Include="Repository\Program.RepositoryService.cs" />
     <Compile Include="Repository\Program.RepositoryService.Customer.cs" />
     <Compile Include="Repository\Program.RepositoryService.CustomerRepository.cs" />
