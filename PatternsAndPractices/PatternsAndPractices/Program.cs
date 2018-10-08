@@ -14,6 +14,8 @@ namespace PatternsAndPractices
     {
         static void Main(string[] args)
         {
+
+            Console.WriteLine(string.Format("ed = {0}, Tom = {1}", "cool", "less cool"));
             //SRP
             Console.WriteLine("SRP");
             UserStorage s = new UserStorage();
