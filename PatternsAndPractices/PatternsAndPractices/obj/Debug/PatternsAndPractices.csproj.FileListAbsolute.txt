@@ -45,3 +45,7 @@ C:\Users\eagius\Documents\GitHub\PatternsAndPractices\PatternsAndPractices\Patte
 C:\Users\eagius\Documents\GitHub\PatternsAndPractices\PatternsAndPractices\PatternsAndPractices\obj\Debug\PatternsAndPractices.csprojResolveAssemblyReference.cache
 C:\Users\eagius\Documents\GitHub\PatternsAndPractices\PatternsAndPractices\PatternsAndPractices\obj\Debug\PatternsAndPractices.exe
 C:\Users\eagius\Documents\GitHub\PatternsAndPractices\PatternsAndPractices\PatternsAndPractices\obj\Debug\PatternsAndPractices.pdb
+C:\Users\eagius\Documents\GitHub\PatternsAndPractices\PatternsAndPractices\PatternsAndPractices\bin\Debug\EntityFramework.dll
+C:\Users\eagius\Documents\GitHub\PatternsAndPractices\PatternsAndPractices\PatternsAndPractices\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\eagius\Documents\GitHub\PatternsAndPractices\PatternsAndPractices\PatternsAndPractices\bin\Debug\EntityFramework.xml
+C:\Users\eagius\Documents\GitHub\PatternsAndPractices\PatternsAndPractices\PatternsAndPractices\bin\Debug\EntityFramework.SqlServer.xml

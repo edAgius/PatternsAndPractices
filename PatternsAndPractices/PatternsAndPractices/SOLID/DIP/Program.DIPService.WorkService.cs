@@ -6,9 +6,9 @@
         {
             public class WorkService
             {
-                private ILogger Logger;
-                private IStorage Storage;
-                private ICombiner Combiner;
+                public ILogger Logger;
+                public IStorage Storage;
+                public ICombiner Combiner;
 
                 public WorkService(ILogger logger, IStorage storage, ICombiner combiner)
                 {

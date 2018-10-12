@@ -11,17 +11,16 @@ namespace PatternsAndPractices.DIP
         [TestMethod]
         public void TestDIP()
         {
-            Mock<ILogger>loggerMock = new Mock<ILogger>();
+            var loggerMock = new Mock<ILogger>();
             Mock<IStorage> storageMock = new Mock<IStorage>();
             Mock<ICombiner> combinerMock = new Mock<ICombiner>();
 
             loggerMock.Setup(m => m.log(It.IsAny<string>()));
             combinerMock.Setup(s => s.Combine(It.IsAny<string>(), It.IsAny<string>())).Returns("FakeString");
-            PatternsAndPractices.Program.DIPService.WorkService workService = new PatternsAndPractices.Program.DIPService.WorkService(new PatternsAndPractices.Program.DIPService.Logger(), new PatternsAndPractices.Program.DIPService.Storage(), new PatternsAndPractices.Program.DIPService.Combiner());
+            WorkService workService = new WorkService(loggerMock.Object, new Storage(), new Combiner());
             workService.DoWork("ED");
 
-            var outPut = Console.ReadLine();
-            Assert.IsTrue(outPut.Contains("FakeString"));
+            loggerMock.Verify(x=>x.log(It.IsAny<string>()),Times.Exactly(3));
 
         }
     }

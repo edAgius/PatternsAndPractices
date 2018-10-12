@@ -1,6 +1,6 @@
 ﻿namespace PatternsAndPractices
 {
-    partial class Program
+    public partial class Program
     {
         public partial class DIPService
         {
