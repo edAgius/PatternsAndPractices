@@ -10,6 +10,7 @@ namespace PatternsAndPractices.Tests.Multiply
     {
         public MultiplyService()
         {
+            Calculate(200, 2);
             Calculate(2, 2);
             Calculate(-2, -2);
             Calculate(-2, 2);
@@ -95,32 +96,17 @@ namespace PatternsAndPractices.Tests.Multiply
 
         private bool BothPositiveSignum(int a, int b)
         {
-            if (a > 0 && b > 0)
-            {
-                return true;
-            }
-
-            return false;
+            return a > 0 && b > 0;
         }
 
         private bool BothNegativeSignum(int a, int b)
         {
-            if (a < 0 && b < 0)
-            {
-                return true;
-            }
-
-            return false;
+            return a < 0 && b < 0;
         }
 
         private bool IsNegativeSignum(int x)
         {
-            if (x < 0)
-            {
-                return true;
-            }
-
-            return false;
+            return x < 0;
         }
 
     }
