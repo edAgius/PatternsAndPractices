@@ -75,6 +75,11 @@ C:\Users\eagius\Documents\GitHub\PatternsAndPractices\PatternsAndPractices\Redst
 C:\Users\eagius\Documents\GitHub\PatternsAndPractices\PatternsAndPractices\Redstone\bin\Debug\Moq.xml
 C:\Users\eagius\Documents\GitHub\PatternsAndPractices\PatternsAndPractices\Redstone\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\eagius\Documents\GitHub\PatternsAndPractices\PatternsAndPractices\Redstone\bin\Debug\System.ValueTuple.xml
-C:\Users\eagius\Documents\GitHub\PatternsAndPractices\PatternsAndPractices\Redstone\obj\Debug\TechTest.csprojResolveAssemblyReference.cache
 C:\Users\eagius\Documents\GitHub\PatternsAndPractices\PatternsAndPractices\Redstone\obj\Debug\Interview.dll
 C:\Users\eagius\Documents\GitHub\PatternsAndPractices\PatternsAndPractices\Redstone\obj\Debug\Interview.pdb
+C:\Users\eagius\Documents\GitHub\PatternsAndPractices\PatternsAndPractices\Redstone\bin\Debug\PatternsAndPractices.exe
+C:\Users\eagius\Documents\GitHub\PatternsAndPractices\PatternsAndPractices\Redstone\bin\Debug\PatternsAndPractices.pdb
+C:\Users\eagius\Documents\GitHub\PatternsAndPractices\PatternsAndPractices\Redstone\bin\Debug\PatternsAndPractices.exe.config
+C:\Users\eagius\Documents\GitHub\PatternsAndPractices\PatternsAndPractices\Redstone\obj\Debug\TechTest.csprojAssemblyReference.cache
+C:\Users\eagius\Documents\GitHub\PatternsAndPractices\PatternsAndPractices\Redstone\obj\Debug\TechTest.csproj.CoreCompileInputs.cache
+C:\Users\eagius\Documents\GitHub\PatternsAndPractices\PatternsAndPractices\Redstone\obj\Debug\TechTest.csproj.CopyComplete

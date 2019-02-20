@@ -8,6 +8,7 @@ using System.Xml.Serialization;
 using PatternsAndPractices;
 using Console = System.Console;
 using System.Data.Entity;
+using PatternsAndPractices.Tests.Multiply;
 
 namespace PatternsAndPractices
 {
@@ -77,9 +78,14 @@ namespace PatternsAndPractices
             NumberSwapService NumberSwapService = new NumberSwapService();
             Console.WriteLine("_________________________________");
 
+            Console.WriteLine("Multiply");
+            //Repository pattern
+            MultiplyService MultiplyService = new MultiplyService();
+            Console.WriteLine("_________________________________");
+
             Console.WriteLine(" EF Code FirstService");
             //EFCodeFirstService
-            EFCodeFirstService EFCodeFirstService = new EFCodeFirstService();
+            //EFCodeFirstService EFCodeFirstService = new EFCodeFirstService();
             Console.WriteLine("_________________________________");
             //read
             Console.ReadLine();

@@ -8,9 +8,10 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>PatternsAndPractices</RootNamespace>
     <AssemblyName>PatternsAndPractices</AssemblyName>
-    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -120,7 +121,8 @@
     <Compile Include="Patterns\Decorator\Program.DecoratorService.cs" />
     <Compile Include="Patterns\Decorator\Program.DecoratorService.Decorator.cs" />
     <Compile Include="Patterns\Decorator\Program.DecoratorService.NameCardDecorator.cs" />
-    <Compile Include="NumberSwap\Program.NumberSwapService.cs" />
+    <Compile Include="Tests\Multiply\MultiplyService.cs" />
+    <Compile Include="Tests\NumberSwap\Program.NumberSwapService.cs" />
     <Compile Include="Patterns\Repository\Program.RepositoryService.cs" />
     <Compile Include="Patterns\Repository\Program.RepositoryService.Customer.cs" />
     <Compile Include="Patterns\Repository\Program.RepositoryService.CustomerRepository.cs" />
