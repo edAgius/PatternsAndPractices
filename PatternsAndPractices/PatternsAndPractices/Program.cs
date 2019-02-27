@@ -9,6 +9,7 @@ using PatternsAndPractices;
 using Console = System.Console;
 using System.Data.Entity;
 using PatternsAndPractices.Tests.Multiply;
+using PatternsAndPractices.Tests.OverflowChecked;
 
 namespace PatternsAndPractices
 {
@@ -79,8 +80,13 @@ namespace PatternsAndPractices
             Console.WriteLine("_________________________________");
 
             Console.WriteLine("Multiply");
-            //Repository pattern
+            //Multiply
             MultiplyService MultiplyService = new MultiplyService();
+            Console.WriteLine("_________________________________");
+
+            Console.WriteLine("OverflowChecked");
+            //OverflowCheckedService
+            OverflowCheckedService OverflowChecked = new OverflowCheckedService();
             Console.WriteLine("_________________________________");
 
             Console.WriteLine(" EF Code FirstService");
