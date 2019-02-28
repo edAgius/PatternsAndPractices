@@ -121,6 +121,7 @@
     <Compile Include="Patterns\Decorator\Program.DecoratorService.cs" />
     <Compile Include="Patterns\Decorator\Program.DecoratorService.Decorator.cs" />
     <Compile Include="Patterns\Decorator\Program.DecoratorService.NameCardDecorator.cs" />
+    <Compile Include="Tests\ByRef\ByRefService.cs" />
     <Compile Include="Tests\Multiply\MultiplyService.cs" />
     <Compile Include="Tests\NumberSwap\Program.NumberSwapService.cs" />
     <Compile Include="Patterns\Repository\Program.RepositoryService.cs" />

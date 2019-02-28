@@ -8,6 +8,8 @@ using System.Xml.Serialization;
 using PatternsAndPractices;
 using Console = System.Console;
 using System.Data.Entity;
+using Castle.DynamicProxy.Generators.Emitters.SimpleAST;
+using PatternsAndPractices.Tests.ByRef;
 using PatternsAndPractices.Tests.Multiply;
 using PatternsAndPractices.Tests.OverflowChecked;
 
@@ -87,6 +89,11 @@ namespace PatternsAndPractices
             Console.WriteLine("OverflowChecked");
             //OverflowCheckedService
             OverflowCheckedService OverflowChecked = new OverflowCheckedService();
+            Console.WriteLine("_________________________________");
+
+            Console.WriteLine("By Ref");
+            //pass by reference
+            ByRefService ByRefService = new ByRefService();
             Console.WriteLine("_________________________________");
 
             Console.WriteLine(" EF Code FirstService");
