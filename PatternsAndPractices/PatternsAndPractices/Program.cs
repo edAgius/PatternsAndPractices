@@ -104,107 +104,107 @@ namespace PatternsAndPractices
             Console.ReadLine();
         }
 
-        public class EFCodeFirstService
-        {
-            public EFCodeFirstService()
-            {
-                using (var ctx = new SchoolContext())
-                {
-                    var stud = new Student() { Surname = "Bill" };
+        //public class EFCodeFirstService
+        //{
+        //    public EFCodeFirstService()
+        //    {
+        //        using (var ctx = new SchoolContext())
+        //        {
+        //            var stud = new Student() { Surname = "Bill" };
 
-                    ctx.Students.Add(stud);
-                    ctx.SaveChanges();
-                    var studs = ctx.Students;
-                    foreach (var student in studs)
-                    {
-                        var text = $"id ={student.StudentId}, name = {student.Surname}";
-                        Console.WriteLine(text);
-                    }
-                }
-            }
+        //            ctx.Students.Add(stud);
+        //            ctx.SaveChanges();
+        //            var studs = ctx.Students;
+        //            foreach (var student in studs)
+        //            {
+        //                var text = $"id ={student.StudentId}, name = {student.Surname}";
+        //                Console.WriteLine(text);
+        //            }
+        //        }
+        //    }
 
-            public class SchoolContext : DbContext
-            {
-                public SchoolContext() : base()
-                {
+        //    public class SchoolContext : DbContext
+        //    {
+        //        public SchoolContext() : base()
+        //        {
 
-                }
-                public DbSet<Student> Students { get; set; }
-                public DbSet<Grade> Grades { get; set; }
+        //        }
+        //        public DbSet<Student> Students { get; set; }
+        //        public DbSet<Grade> Grades { get; set; }
 
-            }
+        //    }
             
-            public class Student
-            {
-                public int StudentId { get; set; }
-                public string Forename { get; set; }
-                public string Surname { get; set; }
-                public DateTime? DateOfBirth { get; set; }
-                public byte gender { get; set; }
-                public Grade Grade { get; set; }
-            }
-            public class Grade
-            {
-                public int GradeId { get; set; }
-                public string GradeName { get; set; }
-                public string Section { get; set; }
+        //    public class Student
+        //    {
+        //        public int StudentId { get; set; }
+        //        public string Forename { get; set; }
+        //        public string Surname { get; set; }
+        //        public DateTime? DateOfBirth { get; set; }
+        //        public byte gender { get; set; }
+        //        public Grade Grade { get; set; }
+        //    }
+        //    public class Grade
+        //    {
+        //        public int GradeId { get; set; }
+        //        public string GradeName { get; set; }
+        //        public string Section { get; set; }
 
-                public ICollection<Student> Students { get; set; }
-            }
+        //        public ICollection<Student> Students { get; set; }
+        //    }
 
 
-            public interface IRepository<T> where T : EntityBase
-            {
-                T GetById(Int64 id);
+        //    public interface IRepository<T> where T : EntityBase
+        //    {
+        //        T GetById(Int64 id);
 
-                void Create(T entity);
+        //        void Create(T entity);
 
-                void Delete(T entity);
+        //        void Delete(T entity);
 
-                void Update(T entity);
-            }
+        //        void Update(T entity);
+        //    }
 
-            public abstract class EntityBase
-            {
-                public Int64 Id { get; set; }
-            }
+        //    public abstract class EntityBase
+        //    {
+        //        public Int64 Id { get; set; }
+        //    }
 
-            public class Repository<T> where T : EntityBase
-            {
-                public void Create(T entity)
+        //    public class Repository<T> where T : EntityBase
+        //    {
+        //        public void Create(T entity)
 
-                {
+        //        {
 
-                    Console.WriteLine($"Create {entity.Id}");
+        //            Console.WriteLine($"Create {entity.Id}");
 
-                }
+        //        }
 
-                public void Delete(T entity)
+        //        public void Delete(T entity)
 
-                {
+        //        {
 
-                    Console.WriteLine($"Delete {entity.Id}");
+        //            Console.WriteLine($"Delete {entity.Id}");
 
-                }
+        //        }
 
-                public virtual T GetById(long id)
+        //        public virtual T GetById(long id)
 
-                {
+        //        {
 
-                    Console.WriteLine($"Find {id}");
-                    throw new NotImplementedException();
+        //            Console.WriteLine($"Find {id}");
+        //            throw new NotImplementedException();
 
-                }
+        //        }
 
-                public void Update(T entity)
+        //        public void Update(T entity)
 
-                {
-                    Console.WriteLine($"Update {entity.Id}");
-                }
+        //        {
+        //            Console.WriteLine($"Update {entity.Id}");
+        //        }
 
-            }
+        //    }
 
-        }
+        //}
     }
 }
 

@@ -65,6 +65,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Demeter\Program.Demeter.PhoneNumber.cs" />
+    <Compile Include="EntityFramework\Program.EFCodeFirstService.cs" />
+    <Compile Include="EntityFramework\Program.EFCodeFirstService.EntityBase.cs" />
+    <Compile Include="EntityFramework\Program.EFCodeFirstService.Grade.cs" />
+    <Compile Include="EntityFramework\Program.EFCodeFirstService.IRepository.cs" />
+    <Compile Include="EntityFramework\Program.EFCodeFirstService.Repository.cs" />
+    <Compile Include="EntityFramework\Program.EFCodeFirstService.SchoolContext.cs" />
+    <Compile Include="EntityFramework\Program.EFCodeFirstService.Student.cs" />
     <Compile Include="SOLID\DIP\Program.DIPService.Combiner.cs" />
     <Compile Include="SOLID\DIP\Program.DIPService.ICombiner.cs" />
     <Compile Include="SOLID\DIP\Program.DIPService.ILogger.cs" />
@@ -147,8 +154,6 @@
   <ItemGroup>
     <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="EntityFramework\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
